@@ -1,7 +1,12 @@
 #include <TinyGPS++.h>
 
+double geofenceLat = 37.484722;
+double geofenceLng = -122.148333;
+
 // create a TinyGPS++ object
 TinyGPSPlus gps;
+
+
 
 void setup() {
   // initialize serial communication
