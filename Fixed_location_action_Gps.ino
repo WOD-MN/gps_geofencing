@@ -8,9 +8,9 @@
 SoftwareSerial gpsSerial(GPS_RX_PIN, GPS_TX_PIN);
 TinyGPSPlus gps;
 
-#define TARGET_LAT 37.7749
+#define TARGET_LAT 37.7749 //specify target location 
 #define TARGET_LON -122.4194
-#define THRESHOLD 100
+#define THRESHOLD 100 //specific the distance as much as you like )
 
 void setup() {
   Serial.begin(9600);
